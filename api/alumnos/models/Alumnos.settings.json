@@ -7,10 +7,21 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
-    
+    "nombre": {
+      "type": "string"
+    },
+    "apellido": {
+      "type": "string"
+    },
+    "carrera": {
+      "model": "carreras"
+    }
   }
 }

@@ -7,10 +7,19 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
-    
+    "nombre": {
+      "type": "string"
+    },
+    "materias": {
+      "collection": "materias",
+      "via": "carrera"
+    }
   }
 }
