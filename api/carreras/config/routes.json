@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/carreras",
+      "handler": "Carreras.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/carreras/count",
+      "handler": "Carreras.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/carreras/:id",
+      "handler": "Carreras.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/carreras",
+      "handler": "Carreras.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/carreras/:id",
+      "handler": "Carreras.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/carreras/:id",
+      "handler": "Carreras.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

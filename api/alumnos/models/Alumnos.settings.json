@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "alumnos",
+  "info": {
+    "name": "alumnos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    
+  }
+}

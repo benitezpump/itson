@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "materias",
+  "info": {
+    "name": "materias",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    
+  }
+}

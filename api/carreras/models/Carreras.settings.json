@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "carreras",
+  "info": {
+    "name": "carreras",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    
+  }
+}
